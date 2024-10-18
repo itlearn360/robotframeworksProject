@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.3 on win32)" generated="2024-09-04T02:23:31.400656" rpa="false" schemaversion="5">
+<suite id="s1" name="Amazon Child Website" source="C:\Users\truba\PycharmProjects\robotframeworks\elearningTestCase\amazon_child_website.robot">
+<test id="s1-t1" name="Handle Child Windows And Tabs On Amazon" line="18">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-09-04T02:23:31.669315" level="INFO">Opening browser 'Firefox' to base url 'https://www.amazon.com'.</msg>
+<arg>${AMAZON_URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-09-04T02:23:31.669315" elapsed="8.413605"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-09-04T02:23:40.082920" elapsed="0.281202"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-09-04T02:23:40.374144" level="INFO">Typing text 'laptop' into text field 'id=twotabsearchtextbox'.</msg>
+<arg>${SEARCH_BOX}</arg>
+<arg>${SEARCH_TERM}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-09-04T02:23:40.364122" elapsed="0.140043"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-09-04T02:23:40.504165" level="INFO">Clicking button 'xpath=//input[@value='Go']'.</msg>
+<arg>${SEARCH_BUTTON}</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-09-04T02:23:40.504165" elapsed="2.756697"/>
+</kw>
+<kw name="Get Window Handle">
+<msg time="2024-09-04T02:23:43.260862" level="FAIL">No keyword with name 'Get Window Handle' found. Did you mean:
+    SeleniumLibrary.Get Window Handles</msg>
+<var>${original_window}</var>
+<status status="FAIL" start="2024-09-04T02:23:43.260862" elapsed="0.000000">No keyword with name 'Get Window Handle' found. Did you mean:
+    SeleniumLibrary.Get Window Handles</status>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<arg>${FIRST_PRODUCT}</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-09-04T02:23:43.260862" elapsed="0.000000"/>
+</kw>
+<kw name="Wait Until Keyword Succeeds" owner="BuiltIn">
+<arg>10s</arg>
+<arg>1s</arg>
+<arg>Check New Window Opened</arg>
+<arg>${original_window}</arg>
+<doc>Runs the specified keyword and retries if it fails.</doc>
+<status status="NOT RUN" start="2024-09-04T02:23:43.260862" elapsed="0.000000"/>
+</kw>
+<kw name="Get Window Handles" owner="SeleniumLibrary">
+<var>${all_windows}</var>
+<doc>Returns all child window handles of the selected browser as a list.</doc>
+<status status="NOT RUN" start="2024-09-04T02:23:43.269874" elapsed="0.000000"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<arg>All open windows: ${all_windows}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" start="2024-09-04T02:23:43.269874" elapsed="0.000000"/>
+</kw>
+<kw name="Get New Window">
+<var>${new_window}</var>
+<arg>${original_window}</arg>
+<arg>${all_windows}</arg>
+<status status="NOT RUN" start="2024-09-04T02:23:43.269874" elapsed="0.000000"/>
+</kw>
+<kw name="Switch Window" owner="SeleniumLibrary">
+<arg>${new_window}</arg>
+<doc>Switches to browser window matching ``locator``.</doc>
+<status status="NOT RUN" start="2024-09-04T02:23:43.269874" elapsed="0.000000"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<arg>Switched to new window/tab</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" start="2024-09-04T02:23:43.269874" elapsed="0.000000"/>
+</kw>
+<kw name="Get Text" owner="SeleniumLibrary">
+<var>${product_title}</var>
+<arg>${PRODUCT_TITLE}</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-09-04T02:23:43.269874" elapsed="0.000000"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<arg>Product title from the new tab: ${product_title}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" start="2024-09-04T02:23:43.269874" elapsed="0.000000"/>
+</kw>
+<kw name="Switch Window" owner="SeleniumLibrary">
+<arg>${original_window}</arg>
+<doc>Switches to browser window matching ``locator``.</doc>
+<status status="NOT RUN" start="2024-09-04T02:23:43.269874" elapsed="0.000000"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<arg>Switched back to the original window</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" start="2024-09-04T02:23:43.269874" elapsed="0.000000"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" start="2024-09-04T02:23:43.269874" elapsed="0.000000"/>
+</kw>
+<doc>This test case opens the Amazon website, searches for a product, opens the product in a new tab, and switches back.</doc>
+<status status="FAIL" start="2024-09-04T02:23:31.653676" elapsed="11.616198">No keyword with name 'Get Window Handle' found. Did you mean:
+    SeleniumLibrary.Get Window Handles</status>
+</test>
+<status status="FAIL" start="2024-09-04T02:23:31.400656" elapsed="11.878217"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Amazon Child Website">Amazon Child Website</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-09-04T02:23:31.653676" level="ERROR">Error in file 'C:\Users\truba\PycharmProjects\robotframeworks\elearningTestCase\amazon_child_website.robot' on line 6: Importing library 'SeleniumLibrary.Get Window Handles' failed: Module 'SeleniumLibrary' does not contain 'Get Window Handles'.</msg>
+</errors>
+</robot>

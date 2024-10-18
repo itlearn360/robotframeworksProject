@@ -1,0 +1,17 @@
+1725396292270	geckodriver	INFO	Listening on 127.0.0.1:51385
+1725396295334	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51386" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\truba\\AppData\\Local\\Temp\\rust_mozprofilel4YGkj"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1725396295636	Marionette	INFO	Marionette enabled
+1725396295733	Marionette	INFO	Listening on port 51397
+WebDriver BiDi listening on ws://127.0.0.1:51386
+Read port: 51397
+1725396295877	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/, line 2165: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/s?k=laptop&ref=nb_sb_noss, line 19820: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/1920x1080-i5-13420H-Graphics-Protective-A515-58PT-50UJ/dp/B0CV62R75W/ref=sr_1_1_sspa?dib=eyJ2IjoiMSJ9.3K-8z8eTmTn_wSTPLVLLlsky5dh0Ro3aaJRqYhdD53WWB3clMioaF_N0z8WNpoilZBD1e4iA5Z2IusoYNrnbeqpU5Ct8AlUIu8hTPGbEuxVmRkfdQUQLj5LKkC-VGJ8uTorfdqo6H_m4GgdNZHy1cedXVObVdp2MY1J5T1fx1Wkw7Ie_X7VR5BzXIKDKopQdAe3KCltdhZcSwqwWUo8yqNZMRrByvsh-Sa09kdXddOQ.fnxLZf8dd_xpUFOSf7___QBC_h8DKaufZ449qknK9WI&dib_tag=se&keywords=laptop&qid=1725396071&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1, line 12719: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://m.media-amazon.com/images/I/81l6Jv+52XL.js?AUIClients/FWCIMAssets, line 298: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.

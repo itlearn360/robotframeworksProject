@@ -1,0 +1,20 @@
+1724876631409	geckodriver	INFO	Listening on 127.0.0.1:52862
+1724876634550	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52863" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\truba\\AppData\\Local\\Temp\\rust_mozprofilewtdq9u"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1724876635168	Marionette	INFO	Marionette enabled
+1724876635391	Marionette	INFO	Listening on port 52877
+WebDriver BiDi listening on ws://127.0.0.1:52863
+Read port: 52877
+1724876635638	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.itlearn360.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.itlearn360.com."
+1724876665204	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://demo.itlearn360.com/wp-includes/js/jquery/jquery.js?ver=5.9.4, line 257: Script terminated by timeout at:
+jQuery.fn.extend@https://demo.itlearn360.com/wp-includes/js/jquery/jquery.js?ver=5.9.4:257:44
+simulate@https://demo.itlearn360.com/wp-includes/js/jquery/jquery.js?ver=5.9.4:8779:18
+handler@https://demo.itlearn360.com/wp-includes/js/jquery/jquery.js?ver=5.9.4:8822:17
+
+1724876674671	Marionette	INFO	Stopped listening on port 52877
+Dynamically enable window occlusion 1

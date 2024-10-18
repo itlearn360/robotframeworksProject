@@ -1,0 +1,16 @@
+1725396651913	geckodriver	INFO	Listening on 127.0.0.1:51633
+1725396654993	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51634" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\truba\\AppData\\Local\\Temp\\rust_mozprofileLCbYEg"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1725396655295	Marionette	INFO	Marionette enabled
+1725396655394	Marionette	INFO	Listening on port 51641
+Read port: 51641
+WebDriver BiDi listening on ws://127.0.0.1:51634
+1725396655472	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/, line 1853: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/s?k=laptop&ref=nb_sb_noss, line 20425: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://m.media-amazon.com/images/I/81l6Jv+52XL.js?AUIClients/FWCIMAssets, line 298: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
